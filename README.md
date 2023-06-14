@@ -1,6 +1,7 @@
 # HERE AI web prototype
 
-This is the Google Meet UI for the Amsterdam AI Hackathon 2023 project HERE AI.
+This is the Google Meet UI for the [Amsterdam AI Hackathon 2023](https://hackathon.amsterdam/) project HERE AI.
+Out of 26 teams, our project won the public vote!
 
 The code is very messy. `public/index.html` contains the copied UI and most of the style changes. `public/frontend.ts` contains the JavaScript speech recognition + response generation + TTS, while `pages/api/completion.ts` contains the GPT-3 prompt.
 
