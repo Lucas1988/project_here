@@ -3,6 +3,8 @@
 This is the Google Meet UI for the [Amsterdam AI Hackathon 2023](https://hackathon.amsterdam/) project HERE AI.
 Out of 26 teams, our project won the public vote!
 
+You can try the application right [here](https://here-ai.vercel.app/).
+
 The code is very messy. `public/index.html` contains the copied UI and most of the style changes. `public/frontend.ts` contains the JavaScript speech recognition + response generation + TTS, while `pages/api/completion.ts` contains the GPT-3 prompt.
 
 In development, run `npm install` to install the dependencies. Then run `npm run dev` and `npx parcel build && cp dist/* public` every time you make a code change. 
